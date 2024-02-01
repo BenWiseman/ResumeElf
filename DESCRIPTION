@@ -1,0 +1,19 @@
+Package: ResumeElf
+Type: Package
+Version: 0.0.0
+Date: 2024-02-01
+Authors@R: person("Ben Wiseman", email = "benjamin.h.wiseman@gmail.com", role = c("aut", "cre"))
+Description: This package provides tools to create, edit, and optimize resumes using OpenAI's API, with output formats in PDF and Word. It aims to help users tailor their resumes for specific job descriptions.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    httr,
+    jsonlite,
+    shiny,
+    rmarkdown,
+    XML
+Suggests: 
+    testthat,
+    knitr
+RoxygenNote: 7.3.1
